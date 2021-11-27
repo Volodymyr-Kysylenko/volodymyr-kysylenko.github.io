@@ -17,10 +17,11 @@
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/jquery.pagepiling.min.js"></script>
+
     <script type="text/javascript">
       $(document).ready(function () {
         /*
-         * Plugin intialization
+         * Pagepiling intialization
          */
         $("#pagepiling").pagepiling({
           direction: "horizontal",
@@ -29,7 +30,7 @@
           sectionsColor: ["black", "white", "black", "grey"],
           navigation: {
             position: "right",
-            tooltips: ["Page 1", "Page 2", "Page 3", "Page 4", "Page 5","Page 6"],
+            tooltips: ["Welcome", "About me", "Expirience", "Skills", "Projects", "Contact me"],
           },
           afterRender: function () {
             $("#pp-nav").addClass("custom");
