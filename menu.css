@@ -1,0 +1,115 @@
+/* Reset CSS
+ * --------------------------------------- */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+
+/* Menu
+ * --------------------------------------- */
+#menu li {
+  display: inline-block;
+  margin: 3px;
+}
+#menu li.active {
+  background: #666;
+  background: rgba(0, 0, 0, 1);
+  color: #ffff;
+  transform: skewX(-12deg);
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#menu li.active a:hover {
+  color: #000;
+}
+
+@keyframes for-menu {
+  0% {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  100% {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+#menu li:hover {
+  background: #ffff;
+  transform: skewX(-12deg);
+  animation-name: for-menu;
+  animation-duration: 0.2s;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#menu li a:hover {
+  transform: skewX(12deg);
+}
+
+#menu li a,
+#menu li.active a {
+  padding: 9px 18px;
+  display: block;
+}
+#menu li.active a {
+  color: #fff;
+  transform: skewX(12deg);
+}
+#menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  top: 30%;
+  left: 10px;
+  height: 40px;
+  z-index: 90;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+/* Section 1
+ * --------------------------------------- */
+
+/* Section 2
+ * --------------------------------------- */
+
+/* Section 3
+ * --------------------------------------- */
