@@ -139,21 +139,25 @@ body {
   background-color: #faff00;
 }
 
+/*
+Contact me
+*/
+
 .contact-me {
-  padding-left: 15%;
-  text-align: center;
+  
 }
 
 .contact-me-title {
-  padding: 30px 0 30px 0;
+  padding: 5% 0 5%;
   color: white;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 84px;
+  text-align: center;
 }
 
 .mail {
   display: block;
-  padding: 90px 0 30px 0;
+  padding: 90px 0 30px 50px;
   color: white;
   font-size: 2em;
 }
