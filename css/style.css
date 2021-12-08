@@ -6,10 +6,6 @@ h1 {
   margin-inline-end: 0px;
 }
 
-p {
-  color: #ffffff;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -156,18 +152,18 @@ Experience
 .expirience-title {
   color: #faff00;
   padding: 0 0 10px 0px;
+  font-size: 20px;
 }
 
 .expirience-company {
   padding: 0 0 20px 0px;
   font-style: italic;
+  font-size: 14px;
 }
 
 .expirience-description {
-
+  font-size: 18px;
 }
-
-
 
 /*
 Contact me
