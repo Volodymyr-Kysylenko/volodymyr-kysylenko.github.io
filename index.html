@@ -7,8 +7,7 @@
     <meta name="description" content="Volodymyr Kysylenko CV" />
     <meta name="keywords" content="Volodymyr Kysylenko, Володимир Кисиленко" />
     <meta name="Resource-type" content="Document" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="./css/jquery.pagepiling.css" />
     <link rel="stylesheet" type="text/css" href="./css/animate.css" />
@@ -27,10 +26,17 @@
           direction: "horizontal",
           menu: "#menu",
           anchors: ["page1", "page2", "page3", "page4", "page5", "page6"],
-          sectionsColor: ["black", "white", "black", "white","black", "black"],
+          sectionsColor: ["black", "white", "black", "white", "black", "black"],
           navigation: {
             position: "right",
-            tooltips: ["Welcome", "About me", "Expirience", "Skills", "Projects", "Contact me"],
+            tooltips: [
+              "Welcome",
+              "About me",
+              "Expirience",
+              "Skills",
+              "Projects",
+              "Contact me",
+            ],
           },
           afterRender: function () {
             $("#pp-nav").addClass("custom");
@@ -47,13 +53,14 @@
     </script>
   </head>
   <body>
-    <div class="menu-background">
-    </div>
-    
-    <div class="logo"><img src="./img/logo.png" alt="Logo"></div>
+    <div class="menu-background"></div>
+
+    <div class="logo"><img src="./img/logo.png" alt="Logo" /></div>
 
     <ul id="menu">
-      <li data-menuanchor="page1" class="active"><a href="#page1">Welcome</a></li>
+      <li data-menuanchor="page1" class="active">
+        <a href="#page1">Welcome</a>
+      </li>
       <li data-menuanchor="page2"><a href="#page2">About me</a></li>
       <li data-menuanchor="page3"><a href="#page3">Expirience</a></li>
       <li data-menuanchor="page4"><a href="#page4">Skills</a></li>
@@ -62,23 +69,41 @@
     </ul>
 
     <div id="pagepiling">
-
       <div class="section" id="section1">
-        <div class="text-name animate__animated animate__fadeIn"><h1>VOLODYMYR KYSYLENKO</h1></div>
-        <div class="text-position animate__animated animate__fadeIn"><h1>PROJECT MANAGER</h1></div>
-        <div class="photo"><img src="./img/photo.jpg" alt="Photo" class="img-photo animate__animated animate__fadeIn"></div>
-        <div class="fact animate__animated animate__fadeIn"><p style="transform: skewX(12deg); text-align: center;">Just facts</p></div>
-        <div class="fact-list animate__animated animate__fadeIn">
-            <ul>
-              <li class="first-fact">&#9654; 24 years old, live in Kyiv</li>
-              <li class="second-fact">&#9654; started as engineer</li>
-              <li class="third-fact">&#9654; more then two years expirience in PM</li>
-              <li class="fourth-fact">&#9654; work hard</li>
-              <li class="fifth-fact">&#9654; want to work at your company</li>
-            </ul>
+        <div class="text-name animate__animated animate__fadeIn">
+          <h1>VOLODYMYR KYSYLENKO</h1>
         </div>
-        <div class="cv-button"><a href="https://drive.google.com/file/d/1j7LUx_n7svITaDkBa9T5P5Hy6z0lTZ5o/view?usp=sharing">DOWNLOAD CV</a></div>
-    </div>
+        <div class="text-position animate__animated animate__fadeIn">
+          <h1>PROJECT MANAGER</h1>
+        </div>
+        <div class="photo">
+          <img
+            src="./img/photo.jpg"
+            alt="Photo"
+            class="img-photo animate__animated animate__fadeIn"
+          />
+        </div>
+        <div class="fact animate__animated animate__fadeIn">
+          <p style="transform: skewX(12deg); text-align: center">Just facts</p>
+        </div>
+        <div class="fact-list animate__animated animate__fadeIn">
+          <ul>
+            <li class="first-fact">&#9654; 24 years old, live in Kyiv</li>
+            <li class="second-fact">&#9654; started as engineer</li>
+            <li class="third-fact">
+              &#9654; more then two years expirience in PM
+            </li>
+            <li class="fourth-fact">&#9654; work hard</li>
+            <li class="fifth-fact">&#9654; want to work at your company</li>
+          </ul>
+        </div>
+        <div class="cv-button">
+          <a
+            href="https://drive.google.com/file/d/1j7LUx_n7svITaDkBa9T5P5Hy6z0lTZ5o/view?usp=sharing"
+            >DOWNLOAD CV</a
+          >
+        </div>
+      </div>
 
       <div class="section" id="section2">
         <div class="intro">
@@ -87,12 +112,45 @@
         </div>
       </div>
 
-      <div class="section" id="section3">
+      <div class="section pp-scrollable" id="section3">
         <div class="intro">
-          <h1>Isn't it great?</h1>
-          <p>Just as you expected!</p>
-          <div id="colors2"></div>
-          <div id="colors3"></div>
+          <h2 class="contact-me-title">EXPIRIENCE</h2>
+          <div class="expirience-block">
+            <p class="expirience-title">Project Manager (Full-time)</p>
+            <p class="expirience-company">Osvitoria, Mar. 2021 – Current</p>
+            <p class="expirience-description">
+              Management of IT / Digital projects and products from initiation
+              to completion. Planning and management of resources, deadlines and
+              quality of projects. Management of IT / Digital projects and
+              products from initiation to completion. Planning and management of
+              resources, deadlines and quality of projects.
+            </p>
+          </div>
+
+          <div class="expirience-block">
+            <p class="expirience-title">Project Manager (Full-time)</p>
+            <p class="expirience-company">Diia, Mar. 2021 – Current</p>
+            <p class="expirience-description">
+              Management of IT / Digital projects and products from initiation
+              to completion. Planning and management of resources, deadlines and
+              quality of projects. Management of IT / Digital projects and
+              products from initiation to completion. Planning and management of
+              resources, deadlines and quality of projects.
+            </p>
+          </div>
+
+          <div class="expirience-block">
+            <p class="expirience-title">Project Manager (Full-time)</p>
+            <p class="expirience-company">Kyivstar, Dec. 2019 – Mar. 2021</p>
+            <p class="expirience-description">
+              Management of IT / Digital projects and products from initiation
+              to completion. Planning and management of resources, deadlines and
+              quality of projects. Management of IT / Digital projects and
+              products from initiation to completion. Planning and management of
+              resources, deadlines and quality of projects.
+            </p>
+          </div>
+
         </div>
       </div>
 
@@ -113,15 +171,20 @@
           <div id="colors3"></div>
         </div>
       </div>
-<!--Contact me-->
+      <!--Contact me-->
       <div class="section" id="section6">
         <div class="contact-me">
           <h2 class="contact-me-title">CONTACT ME</h2>
-          <a class="mail" href="mailto:volodymyr.kysylenko@gmail.com&subject=Пропозиція роботи"><span>email: </span>volodymyr.kysylenko@gmail.com</a>
-          <a class="tel" href="tel:+380731693149"><span>phone: </span>+380731693149</a>
+          <a
+            class="mail"
+            href="mailto:volodymyr.kysylenko@gmail.com?subject=Пропозиція роботи"
+            ><span>▶ email: </span>volodymyr.kysylenko@gmail.com</a
+          >
+          <a class="tel" href="tel:+380731693149"
+            ><span>▶ phone: </span>+380731693149</a
+          >
         </div>
       </div>
-
     </div>
   </body>
 </html>

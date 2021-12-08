@@ -6,6 +6,10 @@ h1 {
   margin-inline-end: 0px;
 }
 
+p {
+  color: #ffffff;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -35,6 +39,7 @@ body {
 
 .logo img {
   height: 50px;
+  width: 150px;
 }
 
 /* Content */
@@ -140,6 +145,31 @@ body {
 }
 
 /*
+Experience
+*/
+
+.expirience-block {
+  color: #ffffff;
+  padding: 50px 150px 0 20%;
+}
+
+.expirience-title {
+  color: #faff00;
+  padding: 0 0 10px 0px;
+}
+
+.expirience-company {
+  padding: 0 0 20px 0px;
+  font-style: italic;
+}
+
+.expirience-description {
+
+}
+
+
+
+/*
 Contact me
 */
 
@@ -153,14 +183,14 @@ Contact me
 
 .mail {
   display: block;
-  padding: 90px 0 30px 25%;
+  padding: 60px 0 20px 26%;
   color: white;
   font-size: 2em;
 }
 
 .tel {
   display: block;
-  padding: 30px 0 30px 20%;
+  padding: 20px 0 20px 24%;
   color: white;
   font-size: 2em;
 }
