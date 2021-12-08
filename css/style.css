@@ -143,28 +143,24 @@ body {
 Contact me
 */
 
-.contact-me {
-  
-}
-
 .contact-me-title {
-  padding: 5% 0 5%;
+  padding: 40px 0 40px 15%;
   color: white;
   font-weight: bold;
-  font-size: 84px;
+  font-size: 4em;
   text-align: center;
 }
 
 .mail {
   display: block;
-  padding: 90px 0 30px 50px;
+  padding: 90px 0 30px 25%;
   color: white;
   font-size: 2em;
 }
 
 .tel {
   display: block;
-  padding: 30px 0 30px 0;
+  padding: 30px 0 30px 20%;
   color: white;
   font-size: 2em;
 }
@@ -282,5 +278,30 @@ Contact me
     padding: 12px 15px 12px 15px;
     color: black;
     transform: skewX(12deg);
+  }
+
+  /*
+Contact me
+*/
+
+  .contact-me {
+    text-align: center;
+  }
+
+  .contact-me-title {
+    padding: unset;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  .mail {
+    padding: unset;
+    font-size: 20px;
+  }
+
+  .tel {
+    padding: unset;
+    font-size: 20px;
   }
 }
